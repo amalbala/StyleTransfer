@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 from keras import backend as K
 from keras.applications import vgg19
-from keras.preprocessing.image import load_img, img_to_array
+from keras.preprocessing.image import load_img
 from scipy.optimize import fmin_l_bfgs_b
 import argparse
 
